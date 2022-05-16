@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- local css file -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- Js bootstrap cdn -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <!--Navbar-->
+    <br>
+    <a href="home"><button class="btn card-btn btn-md">Home</button></a>
+    <br><br>    
+    
+
+    <h1>Your cart</h1>
+    <section id="price-cards" class="card-container">
+
+        <div class="row">
+            <% var total = 0 %>
+          <% data.forEach(function(Product){ %>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card">
+              <img src="<%= Product.img %>" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><%= Product.product_name %></h5>
+                <a href="/cartdel/<%= Product.product_id %>" class="btn btn-light btn-outline-dark btn-sm">Delete from Cart</a>
+                <button class="btn card-btn btn-sm">$<%= Product.price %></button>
+                <% total = total + Product.price %>
+              </div>
+            </div>
+          </div>
+          <% }) %>
+    
+        </div>
+        <br>
+        <button class="btn card-btn btn-lg">Total $<%= total %></button>
+      </section>
+
+        <br><br>
+        
+
+
+</body>
+
+<footer id="footer-id">
+    <i class="footer-img fab fa-twitter"></i>
+    <i class="footer-img fab fa-facebook-f"></i>
+    <i class="footer-img fab fa-instagram"></i>
+    <i class="footer-img far fa-envelope"></i>
+    <p class="Copyright-text">© Copyright 2022 Little H</p>
+  </footer>
+
+  
+</html>

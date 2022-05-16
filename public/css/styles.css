@@ -1,0 +1,168 @@
+body{
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+#title{
+  position: fixed;
+  z-index: 1;
+  background-color: #101d2c;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  padding: 0 10px;
+}
+
+#carousel-id{
+  padding-top: 80px;
+  background-color: #fad9a7;
+}
+
+.carousel-img{
+  position: relative;
+  height: 300px;
+  background-size: cover;
+}
+
+#price-cards{
+  padding: 5% 5%;
+}
+
+.card-container{
+  background-color: #c69963;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 280px;
+}
+
+.card-btn{
+  background-color: #101d2c;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-img {
+  padding: 2% 20px;
+}
+
+.Copyright-text{
+  color: #888888;
+}
+
+@media (max-width: 425px){
+  .carousel-img{
+    width: 100%;
+  }
+  .search-btn{
+    display: none;
+  }
+}
+
+body {
+  background-color: #c69963;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #483434;
+  margin: 1rem auto;
+  letter-spacing: 2px;
+}
+
+.btn {
+  margin-left: 84%;
+  margin-bottom: 1rem;
+  background-color: #483434;
+  color: #fff;
+}
+
+.main {
+  margin: auto 3rem;
+}
+
+td {
+  border-color: #777;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+a {
+  color: #333;
+}
+
+.detail {
+  margin: 3rem 20%;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+label {
+  margin-bottom: 0.3rem;
+}
+
+.detail .btn {
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+.ul-list {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.btn-form {
+  margin: 0;
+}
+
+.input-form {
+  width: 60%;
+  margin: 0 3rem;
+}
+
+.btn-left {
+  margin-left: 0;
+}
+
+.login {
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 3rem;
+}
+
+.h1-main {
+  text-align: left;
+  margin-left: 25%;
+}
+
+.btn-prod {
+  margin: 0;
+}
