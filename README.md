@@ -57,16 +57,43 @@ The payment requires the order ID on which the payment is to be made. The method
 **Accessing the website by the viewer:**
 
 *The applications to be installed:*
-Node.js, Visual studio code, Terminal set up
+Node.js, My SQL, Visual studio code, Terminal set up
 
 *Run using applications:*
 Download the zip file of this project and unzip it. Then install npm package by running the command **npm install** . Then go to the visual studio code application and then go to the *File* and then click on open folder and then browse for the folder that contains the project that is downloaded. Then go to *Terminal* in the Navigation barand then it prompts us to run a command. Then type the command **npm run dev**. Then it is connected to the server on the port 3000. Now go to the browser and then type **localhost:3000** on the URL. Then it directs to the signin page. User can give some random credentials to signup and then Signin using the same to enter into the official page of the website.
 
-Signup page:
+Signup page: User can create an account using signup page.
 
-![Screenshot (5)](https://user-images.githubusercontent.com/103952756/168948344-c929cbee-7bc0-45f5-9e90-3ddf31f9e3c7.png)
+![Signup](https://user-images.githubusercontent.com/103952756/168948694-ad022fd8-5995-47da-8f54-49a8ed1f4944.png)
 
-Login Page:
+Login Page: The registered user who has a account can access the website using Login page.
+
+![Login](https://user-images.githubusercontent.com/103952756/168948724-63dd7873-c0df-43fb-9da1-7a6300e5e97f.png)
+
+Home Page: The home page shows the navigation bar and the services.
+
+![Home](https://user-images.githubusercontent.com/103952756/168948765-08144f23-634f-4ddd-ac6c-da2e74575eaf.png)
+
+About Page: If once click the about button, it directs to the about which gives the brief description of the bakery and the services.
+
+![About](https://user-images.githubusercontent.com/103952756/168948813-ed87cce0-0e1a-45ff-90b7-1b98e2f6e927.png)
+
+Menu Page: The Menu page contains all the items sold in the bakery
+
+![Menu](https://user-images.githubusercontent.com/103952756/168948852-482663b2-26b8-4f1f-b2f8-754a0413b3ab.png)
+
+Team: Team page introduces the chefs of the bakery 
+
+![Team](https://user-images.githubusercontent.com/103952756/168948876-7028826a-626d-47a2-8cbb-a52b472088de.png)
+
+Cart: The cart page shows the items added to the cart, the cost of separate item and the total cost of the cart. It shows a button i.e., *Home* to redirect to the home page. The user can go to the payment page and submits the payment.
+
+![Cart](https://user-images.githubusercontent.com/103952756/168948907-e73cae16-4227-4d97-b935-a1095db81897.png)
+
+Payment Page: After the payment is done, the user can logout of the site or signout to delete his account.
+
+![Payment](https://user-images.githubusercontent.com/103952756/168948941-22b2919f-f002-4402-a2ea-0bb2e612c62e.png)
 
 
+**Future improvements will be done and the ReadMe is updated accordingly.**
 
