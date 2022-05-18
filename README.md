@@ -38,4 +38,8 @@ My SQL, Node js
 
 ERD:
 
-![ERD](https://user-images.githubusercontent.com/103952756/168941971-70cc9e3a-8c7b-45f5-87f1-8aff19a910cc.png)
+
+
+Customer: 
+A customer will create a new account by giving username, user ID, e-mail, password.
+
